@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - prints _putchar
+ * main - Defining a function that prints "-putchar" to the terminal
  * _putchar - A function that writes the character c to stdout
- * 
+ *
  * @c: The character to be printed
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 int _putchar(char c);
-int main(void);
+int main(void)
 {
-	char TheText = '_';
+	char myText = '_';
 
-	_putchar(TheText);
+	_putchar(myText);
 	_putchar('p');
 	_putchar('u');
-        _putchar('t');
-        _putchar('c');
+	_putchar('t');
+	_putchar('c');
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
