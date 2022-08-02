@@ -1,6 +1,15 @@
-#ifndef LIKEMACRO_H
-#define LIKEMACRO_H
+#include <stdio.h>
+#include <stdlib.h>
 
-#define ABS(X) ((X) < 0 ? -(1) * (X) : (X))
+/**
+ * main - prints the name of the file it was compiled from
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	char *s = __BASE_FILE__;
 
-#endif
+	printf("%s\n", s);
+	return (0);
+}
